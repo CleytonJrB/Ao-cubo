@@ -1,5 +1,7 @@
 
 import '../styles/home.scss';
+import { Propaganda } from '../components/Propaganda';
+import { Produto } from '../components/Produto';
 
 import Logo from '../assets/Images/logo.svg';
 import LogoChat from '../assets/Images/chatlogo.svg';
@@ -12,12 +14,13 @@ import Esporte from '../assets/Images/Run.svg'
 import Fashion from '../assets/Images/Fashion.svg';
 import Security from '../assets/Images/Security.svg';
 import Music from '../assets/Images/Music.svg';
-import FlechaEsq from '../assets/Images/chevrons-right.svg';
 import Linked from '../assets/Images/linkedin.svg';
 import Insta from '../assets/Images/instagram.svg';
 import Twitter from '../assets/Images/twitter.svg';
 import Face1 from '../assets/Images/facebook.svg';
 import Youtube from '../assets/Images/youtube.svg';
+import Globe from '../assets/Images/Globe.svg';
+import Medico from '../assets/Images/Health.svg';
 
 export function Home() {
   return (
@@ -52,6 +55,13 @@ export function Home() {
                 <button type="button">
                   TODOS OS DEPARTAMENTOS
                   <img src={FlechaBaixo} alt="Baixo" />
+                
+                  <ul>
+                    <li><a href="#">Esportes</a></li>
+                    <li><a href="#">Moda</a></li>
+                    <li><a href="#">Musica</a></li>
+                    <li><a href="#">Pet Estimacao</a></li>
+                  </ul>
                 </button>
               </div>
               <div className="destaqueMenu">
@@ -69,298 +79,75 @@ export function Home() {
           <div className="promOver">
             <p>A PROMOCAO TERMINA EM:</p>
             <div className="circleRotate">
-              <div/>
+              <div />
             </div>
           </div>
         </div>
         <section className="listagemProduto">
-          <div>
-            <img src={Esporte} alt="Esportes" />
-            <h1>ESPORTES</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Fashion} alt="Esportes" />
-            <h1>MODA</h1>
-            <h1><br /> EM PROMOCAO <br /><span> NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Music} alt="Esportes" />
-            <h1>MUSICA</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Security} alt="Esportes" />
-            <h1>PET ESTIMACAO</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Esporte} alt="Esportes" />
-            <h1>ESPORTES</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Fashion} alt="Esportes" />
-            <h1>MODA</h1>
-            <h1><br /> EM PROMOCAO <br /><span> NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Music} alt="Esportes" />
-            <h1>MUSICA</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Security} alt="Esportes" />
-            <h1>PET ESTIMACAO</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div><div>
-            <img src={Esporte} alt="Esportes" />
-            <h1>ESPORTES</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Fashion} alt="Esportes" />
-            <h1>MODA</h1>
-            <h1><br /> EM PROMOCAO <br /><span> NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Music} alt="Esportes" />
-            <h1>MUSICA</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Security} alt="Esportes" />
-            <h1>PET ESTIMACAO</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Esporte} alt="Esportes" />
-            <h1>ESPORTES</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Fashion} alt="Esportes" />
-            <h1>MODA</h1>
-            <h1><br /> EM PROMOCAO <br /><span> NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Music} alt="Esportes" />
-            <h1>MUSICA</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Security} alt="Esportes" />
-            <h1>PET ESTIMACAO</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div><div>
-            <img src={Esporte} alt="Esportes" />
-            <h1>ESPORTES</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Fashion} alt="Esportes" />
-            <h1>MODA</h1>
-            <h1><br /> EM PROMOCAO <br /><span> NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Music} alt="Esportes" />
-            <h1>MUSICA</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Security} alt="Esportes" />
-            <h1>PET ESTIMACAO</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Esporte} alt="Esportes" />
-            <h1>ESPORTES</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Fashion} alt="Esportes" />
-            <h1>MODA</h1>
-            <h1><br /> EM PROMOCAO <br /><span> NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Music} alt="Esportes" />
-            <h1>MUSICA</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Security} alt="Esportes" />
-            <h1>PET ESTIMACAO</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div><div>
-            <img src={Esporte} alt="Esportes" />
-            <h1>ESPORTES</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Fashion} alt="Esportes" />
-            <h1>MODA</h1>
-            <h1><br /> EM PROMOCAO <br /><span> NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Music} alt="Esportes" />
-            <h1>MUSICA</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Security} alt="Esportes" />
-            <h1>PET ESTIMACAO</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Esporte} alt="Esportes" />
-            <h1>ESPORTES</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Fashion} alt="Esportes" />
-            <h1>MODA</h1>
-            <h1><br /> EM PROMOCAO <br /><span> NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Music} alt="Esportes" />
-            <h1>MUSICA</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          <div>
-            <img src={Security} alt="Esportes" />
-            <h1>PET ESTIMACAO</h1>
-            <h1><br /> EM PROMOCAO <br /><span>NO PIX</span></h1>
-            <button type="submit">
-              <img src={FlechaEsq} alt="FlechaEsquerda" />
-              Ver mais
-            </button>
-          </div>
-          
+          <Produto
+            h1="ESPORTES"
+            src={Esporte}
+          />
+          <Produto
+            h1="MODA"
+            src={Fashion}
+          />
+          <Produto
+            h1="MUSICA"
+            src={Music}
+          />
+          <Produto
+            h1="PET ESTIMACAO"
+            src={Security}
+            href="https://www.google.com.br/"
+          />
+          <Produto
+            h1="ESPORTES"
+            src={Esporte}
+          />
+          <Produto
+            h1="MODA"
+            src={Fashion}
+          />
+          <Produto
+            h1="MUSICA"
+            src={Music}
+          />
+          <Produto
+            h1="PET ESTIMACAO"
+            src={Security}
+            href="https://www.google.com.br/"
+          />
+          <Produto
+            h1="ESPORTES"
+            src={Esporte}
+          />
+          <Produto
+            h1="MODA"
+            src={Fashion}
+          />
+          <Produto
+            h1="MUSICA"
+            src={Music}
+          />
+          <Produto
+            h1="PET ESTIMACAO"
+            src={Security}
+            href="https://www.google.com.br/"
+          />
         </section>
+        <div className="progaContainer">
+          <Propaganda
+            src={Medico}
+            alt="Medicamentos"
+            h1="OS MELHORES MEDICAMENTOS VOCE ENCONTRA AQUI"
+          />
+          <Propaganda
+            src={Globe}
+            alt="Globo"
+            h1="OS MELHORS PRECO DE PASSAGEM AREA E DE ONIBUS VOCE ENCONTRA AQUI"
+          />
+        </div>
       </main>
       <footer id="footerPage">
         <div className="mensFooter">
@@ -372,7 +159,7 @@ export function Home() {
           </div>
           <div className="containerFooter">
             <a href="#"><img src={Linked} alt="Linkedin" /></a>
-            <a href='https://instagram.com/cleytonxd'target="_blank"><img src={Insta} alt="Instagram" /></a>
+            <a href='https://instagram.com/cleytonxd' target="_blank"><img src={Insta} alt="Instagram" /></a>
             <a href="#"><img src={Face1} alt="Facebook" /></a>
             <a href="#"><img src={Twitter} alt="Twitter" /></a>
             <a href="#"><img src={Youtube} alt="Youtube" /></a>
