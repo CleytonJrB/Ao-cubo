@@ -1,6 +1,6 @@
 # Ao Cubo | Header and Main
 ![HomePage view](.github/Aocubo1.png)
-# AO Cubo | Main and Footer
+# Ao Cubo | Main and Footer
 ![HomePage view2](.github/Aocubo2.png)
 
 # Getting Started with Create React App
