@@ -49,13 +49,12 @@ export function Home() {
           </div>
         </div>
         <div className="headerDown">
-          <div className="testeMenuSec">
-            <nav className="departMenu">
+          <div className="contMenuSec">
+            <nav className="departMenuLeft">
               <div className="cateMenu">
                 <button type="button">
                   TODOS OS DEPARTAMENTOS
                   <img src={FlechaBaixo} alt="Baixo" />
-                
                   <ul>
                     <li><a href="#">Esportes</a></li>
                     <li><a href="#">Moda</a></li>
@@ -64,6 +63,8 @@ export function Home() {
                   </ul>
                 </button>
               </div>
+            </nav>
+            <nav className="departMenuRight">
               <div className="destaqueMenu">
                 <a href="#">LANCAMENTOS</a>
                 <a href="#">DESTAQUE</a>
