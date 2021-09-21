@@ -98,7 +98,7 @@ export function Home() {
             src={Music}
           />
           <Produto
-            h1="PET ESTIMACAO"
+            h1="PET"
             src={Security}
             href="https://www.google.com.br/"
           />
@@ -115,7 +115,7 @@ export function Home() {
             src={Music}
           />
           <Produto
-            h1="PET ESTIMACAO"
+            h1="PET"
             src={Security}
             href="https://www.google.com.br/"
           />
@@ -132,10 +132,11 @@ export function Home() {
             src={Music}
           />
           <Produto
-            h1="PET ESTIMACAO"
+            h1="PET"
             src={Security}
             href="https://www.google.com.br/"
           />
+          
         </section>
         <div className="progaContainer">
           <Propaganda
