@@ -6,7 +6,7 @@
    fill="none"
    version="1.1"
    id="svg35"
-   sodipodi:docname="Group.svg"
+   sodipodi:docname="logo.svg"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,15 +23,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="4.8542673"
-     inkscape:cx="9.0641898"
-     inkscape:cy="27.501576"
+     inkscape:zoom="3.4324853"
+     inkscape:cx="-21.121722"
+     inkscape:cy="4.2243444"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g157"
+     inkscape:current-layer="g164"
      width="120px" />
   <g
      inkscape:groupmode="layer"
@@ -62,12 +62,12 @@
              d="M 3.556812,30.999939 C 3.556812,16.078858 15.3282,3.9875499 29.97888,3.6445306 V 0 C 13.38036,0.3001386 0,14.063563 0,30.999939 0,47.936314 13.38036,61.656967 29.97888,61.957105 V 58.355456 C 15.3282,58.055319 3.556812,45.921141 3.556812,30.999939 Z"
              fill="#52bb77"
              id="path29"
-             style="stroke-width:0.120754" />
+             style="stroke-width:0.120754;fill:#2f3944;fill-opacity:1" />
           <path
              d="M 91.29144,0.04286776 H 87.69228 L 60.80448,58.39835 H 65.0388 L 89.47068,5.3596152 114.02964,58.39835 h -22.7382 v 3.558755 H 120 Z"
              fill="#f16055"
              id="path31"
-             style="stroke-width:0.120754" />
+             style="stroke-width:0.120754;fill:#2f3944;fill-opacity:1" />
           <path
              d="m 65.0388,58.39835 h -4.23432 l -1.65132,3.558755 H 91.29144 V 58.39835 Z"
              fill="#2f3944"

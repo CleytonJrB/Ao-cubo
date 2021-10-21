@@ -136,7 +136,7 @@ export function Home() {
             src={Security}
             href="https://www.google.com.br/"
           />
-          
+
         </section>
         <div className="progaContainer">
           <Propaganda
@@ -147,7 +147,7 @@ export function Home() {
           <Propaganda
             src={Globe}
             alt="Globo"
-            h1="OS MELHORS PRECO DE PASSAGEM AREA E DE ONIBUS VOCE ENCONTRA AQUI"
+            h1="OS MELHORES PRECO DE PASSAGEM AREA E DE ONIBUS VOCE ENCONTRA AQUI"
           />
         </div>
       </main>

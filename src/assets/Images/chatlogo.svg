@@ -6,7 +6,7 @@
    fill="none"
    version="1.1"
    id="svg35"
-   sodipodi:docname="Group2.svg"
+   sodipodi:docname="chatlogo.svg"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -31,7 +31,7 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g764"
+     inkscape:current-layer="g771"
      width="120px"
      inkscape:snap-global="true" />
   <g
@@ -69,7 +69,7 @@
              d="m 34.311723,31.671198 c 0,-14.921081 11.771388,-27.0123889 26.422068,-27.3554082 V 0.6712592 c -16.59852,0.3001386 -29.97888,14.0635628 -29.97888,30.9999388 0,16.936375 13.38036,30.657028 29.97888,30.957166 V 59.026715 C 46.083111,58.726578 34.311723,46.5924 34.311723,31.671198 Z"
              fill="#52bb77"
              id="path29"
-             style="display:inline;stroke-width:0.120754" />
+             style="display:inline;stroke-width:0.120754;fill:#2f3944;fill-opacity:1" />
           <path
              d="m 61.326591,0.71412696 c -0.2118,0 -0.38112,0 -0.5928,0 V 4.3586596 c 0.21168,0 0.381,0 0.5928,0 14.90472,0 27.01476,12.2627744 27.01476,27.3554324 0,15.092657 -12.11004,27.355517 -27.01476,27.355517 -0.2118,0 -0.38112,0 -0.5928,0 v 3.601649 c 0.21168,0 0.381,0 0.5928,0 16.8948,0 30.57156,-13.849214 30.57156,-30.957166 0,-17.107831 -13.67676,-30.99996504 -30.57156,-30.99996504 z"
              fill="#2f3944"
@@ -84,7 +84,7 @@
              d="m 92.094753,0.67123296 h -3.59916 L 61.607793,59.026715 h 4.23432 L 90.273993,5.9879804 114.83295,59.026715 H 92.094753 v 3.558755 h 28.708557 z"
              fill="#f16055"
              id="path31"
-             style="display:inline;stroke-width:0.120754" />
+             style="display:inline;stroke-width:0.120754;fill:#2f3944;fill-opacity:1" />
           <path
              d="m 65.842113,59.026715 h -4.23432 l -1.65132,3.558755 h 32.13828 v -3.558755 z"
              fill="#2f3944"
