@@ -100,6 +100,11 @@
         margin-left: 20px;
         a{
           margin:5px 5px;
+
+          transition:filter 0.15s;
+          &:hover{
+            filter: invert(0.6)sepia(1)saturate(5)hue-rotate(500deg);
+          }
         }
         img{
           width: 28px;
@@ -168,7 +173,7 @@
                 }
                 ul{
                   display: block;
-                }         
+                }        
             }
           }
           ul{
@@ -201,6 +206,12 @@
         .destaqueMenu{
           display: flex;
           gap: 70px;
+          a{
+            transition: filter 0.2s;
+            &:hover{
+              filter:brightness(0.9);
+            }
+          }
         }
       }
     }    
@@ -327,6 +338,12 @@
     }
     .containerFooter{
       display: flex;
+      a{
+        transition: filter 0.3s;
+        &:hover{
+            filter: brightness(0.5);
+          }
+      }
       svg{
         width:25px;
         height: 25px;
