@@ -41,9 +41,9 @@ export function Home() {
                 <p>Faça <a href="#"><span>Login</span></a> ou <br /> crie seu <a href="#"><span>Cadastro</span></a></p>
               </div>
               <div className="imgLegal">
-                <a href="#"><img src={Call} alt="Contato" /></a>
-                <a href="#"><img src={Favorito} alt="Favoritos" /></a>
                 <a href="#"><img src={Compra} alt="Carrinho" /></a>
+                <a href="#"><img src={Favorito} alt="Favoritos" /></a>
+                <a href="#"><img src={Call} alt="Contato" /></a>
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@ export function Home() {
               <div className="destaqueMenu">
                 <a href="#">LANCAMENTOS</a>
                 <a href="#">DESTAQUE</a>
-                <a href="#">SOBRE</a>
+                <a href="#footerPage">SOBRE</a>
               </div>
             </nav>
           </div>
