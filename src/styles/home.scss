@@ -34,8 +34,6 @@
         display: flex;
         position: relative;
         input{
-          align-items: center;
-          justify-content:center;
           background: white;
           outline: none;
           border:1px solid #2f3944;
@@ -140,7 +138,7 @@
             display: flex;
             align-items: center;
             justify-content:center;
-            background-color:#05A8D7;
+            background-color:#0780a1;
             margin-right:180px;
             button{
               display: flex;
@@ -149,7 +147,7 @@
               margin-left: 250px;
               padding-left: 10px;
               height:37px;
-              background:#05A8D7;
+              background:#0780a1;
               cursor: pointer;
               border-radius: 0px;
                   
@@ -164,7 +162,7 @@
                     transition: transform 0.5s;
                     }
                 &:hover{
-                  background:#05708d;
+                  background:#064f63;
                 img{
                   transform: rotate(-180deg);
                 }
