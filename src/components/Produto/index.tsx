@@ -1,5 +1,5 @@
 import './produto.scss';
-import { Button } from './Button';
+import { Button } from '../Button';
 type ProdutoProps = {
   href?: string;
   src?: string;

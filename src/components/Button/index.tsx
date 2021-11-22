@@ -1,5 +1,5 @@
 import './button.scss';
-import FlechaDireita from '../assets/Images/chevrons-right.svg';
+import FlechaDireita from '../../assets/Images/chevrons-right.svg';
 
 type ButtonProps = {
   text?: string;
