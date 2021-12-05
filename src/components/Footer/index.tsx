@@ -18,7 +18,7 @@ export function Footer() {
                 </div>
                 <div className="containerFooter">
                     <a href="#"><img src={Linked} alt="Linkedin" /></a>
-                    <a href='https://instagram.com/cleytonxd' target="_blank"><img src={Insta} alt="Instagram" /></a>
+                    <a href='https://instagram.com/cleytonxd/' target="_blank"><img src={Insta} alt="Instagram" /></a>
                     <a href="#"><img src={Face1} alt="Facebook" /></a>
                     <a href="#"><img src={Twitter} alt="Twitter" /></a>
                     <a href="#"><img src={Youtube} alt="Youtube" /></a>

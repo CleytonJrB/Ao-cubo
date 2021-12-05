@@ -1,24 +1,37 @@
+import "../styles/home.scss";
+import "../components/Produto/produto.scss";
 
-import '../styles/home.scss';
-import { Propaganda } from '../components/Propaganda';
-import { Produto } from '../components/Produto';
+import { Propaganda } from "../components/Propaganda";
 
-import Esporte from '../assets/Images/Run.svg'
-import Fashion from '../assets/Images/Fashion.svg';
-import Security from '../assets/Images/Security.svg';
-import Music from '../assets/Images/Music.svg';
-import Globe from '../assets/Images/Globe.svg';
-import Medico from '../assets/Images/Health.svg';
+import Globe from "../assets/Images/Globe.svg";
+import Medico from "../assets/Images/Health.svg";
+import axios from "axios";
+import { useEffect, useState } from "react";
+import { Button } from "../components/Button";
 
+type Produto = {
+  id: number;
+  src: string;
+  alt: string;
+  descricao: string;
+};
+type HomeProps = {
+  allProdutos: Produto[];
+};
 
-
-export function Home() {
-
+export function Home({ allProdutos }: HomeProps) {
+  const [produtos, setProdutos] = useState([]);
+  console.log(produtos);
+  useEffect(() => {
+    axios.get("http://localhost:3333/produtos").then((response) => {
+      setProdutos(response.data);
+    });
+  }, []);
   return (
     <div id="homePage">
       <main id="mainContent">
         <div className="headerMain">
-          <p className="logonameMain">AO CUBO</p>
+          <p className="logoNameMain">AO CUBO</p>
           <div className="promOver">
             <p>A PROMOCAO TERMINA EM:</p>
             <div className="circleRotate">
@@ -27,58 +40,25 @@ export function Home() {
           </div>
         </div>
         <section className="listagemProduto">
-          <Produto
-            h1="ESPORTES"
-            src={Esporte}
-          />
-          <Produto
-            h1="MODA"
-            src={Fashion}
-          />
-          <Produto
-            h1="MUSICA"
-            src={Music}
-          />
-          <Produto
-            h1="PET"
-            src={Security}
-            href="https://www.google.com.br/"
-          />
-          <Produto
-            h1="ESPORTES"
-            src={Esporte}
-          />
-          <Produto
-            h1="MODA"
-            src={Fashion}
-          />
-          <Produto
-            h1="MUSICA"
-            src={Music}
-          />
-          <Produto
-            h1="PET"
-            src={Security}
-            href="https://www.google.com.br/"
-          />
-          <Produto
-            h1="ESPORTES"
-            src={Esporte}
-          />
-          <Produto
-            h1="MODA"
-            src={Fashion}
-          />
-          <Produto
-            h1="MUSICA"
-            src={Music}
-          />
-          <Produto
-            h1="PET"
-            src={Security}
-            href="https://www.google.com.br/"
-          />
-
+          {produtos.map((produto) => {
+            return (
+              <div className="contProduto">
+                <a href={`/produtos/`}>
+                  <img
+                    className="imgProd"
+                    src={produto.src}
+                    alt={produto.alt}
+                  />
+                  <h1>descricao</h1>
+                  <h1>
+                    <br /> EM PROMOCAO <br />
+                    <span>NO PIX</span>
+                  </h1>
+                  <Button />
+                </a>
+              </div>
+            );
+          })}
         </section>
         <div className="progaContainer">
           <Propaganda

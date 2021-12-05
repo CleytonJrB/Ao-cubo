@@ -1,5 +1,5 @@
-import { LoginForm } from '../Login';
-import Styles from './modal.module.scss'
+import { LoginForm } from "../Login";
+import Styles from "./modal.module.scss";
 
 const Modal = () => {
   return (
@@ -7,5 +7,5 @@ const Modal = () => {
       <LoginForm />
     </div>
   );
-}
+};
 export default Modal;
