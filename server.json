@@ -20,15 +20,63 @@
   "produtos": [
     {
       "id": "1",
-      "descricao": "Esporte",
-      "src": "./src/assets/Images/Run.svg",
-      "alt": "Esporte"
+      "name": "ESPORTE",
+      "thumbnail": "https://i.pinimg.com/originals/41/a4/a2/41a4a24dd1fc45376881a72f25fc34d7.png"
     },
     {
-      "id": "jqHzM4R",
-      "src": "./src/assets/Images/Security.svg",
-      "alt": "Pet",
-      "descricao": "Pet"
+      "id": "2",
+      "thumbnail": "https://i.pinimg.com/originals/41/a4/a2/41a4a24dd1fc45376881a72f25fc34d7.png",
+      "name": "MODA"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://i.pinimg.com/originals/41/a4/a2/41a4a24dd1fc45376881a72f25fc34d7.png",
+      "name": "MUSICA"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://i.pinimg.com/originals/41/a4/a2/41a4a24dd1fc45376881a72f25fc34d7.png",
+      "name": "PET"
+    },
+    {
+      "id": "1",
+      "name": "ESPORTE",
+      "thumbnail": "https://i.pinimg.com/originals/41/a4/a2/41a4a24dd1fc45376881a72f25fc34d7.png"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://i.pinimg.com/originals/41/a4/a2/41a4a24dd1fc45376881a72f25fc34d7.png",
+      "name": "MODA"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://i.pinimg.com/originals/41/a4/a2/41a4a24dd1fc45376881a72f25fc34d7.png",
+      "name": "MUSICA"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://i.pinimg.com/originals/41/a4/a2/41a4a24dd1fc45376881a72f25fc34d7.png",
+      "name": "PET"
+    },
+    {
+      "id": "1",
+      "name": "ESPORTE",
+      "thumbnail": "https://i.pinimg.com/originals/41/a4/a2/41a4a24dd1fc45376881a72f25fc34d7.png"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://i.pinimg.com/originals/41/a4/a2/41a4a24dd1fc45376881a72f25fc34d7.png",
+      "name": "MODA"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://i.pinimg.com/originals/41/a4/a2/41a4a24dd1fc45376881a72f25fc34d7.png",
+      "name": "MUSICA"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://i.pinimg.com/originals/41/a4/a2/41a4a24dd1fc45376881a72f25fc34d7.png",
+      "name": "PET"
     }
   ]
 }

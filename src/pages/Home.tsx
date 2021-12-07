@@ -8,23 +8,17 @@ import Medico from "../assets/Images/Health.svg";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { Button } from "../components/Button";
-
-type Produto = {
-  id: number;
-  src: string;
-  alt: string;
-  descricao: string;
+type ProdutoProps = {
+  id: string;
+  name: string;
+  thumbnail: string;
 };
-type HomeProps = {
-  allProdutos: Produto[];
-};
-
-export function Home({ allProdutos }: HomeProps) {
-  const [produtos, setProdutos] = useState([]);
-  console.log(produtos);
+export function Home() {
+  const [produtos, setProdutos] = useState<ProdutoProps[]>([]);
   useEffect(() => {
-    axios.get("http://localhost:3333/produtos").then((response) => {
-      setProdutos(response.data);
+    axios.get("http://localhost:3333/produtos").then((res) => {
+      console.log(res.data);
+      setProdutos(res.data);
     });
   }, []);
   return (
@@ -40,25 +34,23 @@ export function Home({ allProdutos }: HomeProps) {
           </div>
         </div>
         <section className="listagemProduto">
-          {produtos.map((produto) => {
-            return (
-              <div className="contProduto">
-                <a href={`/produtos/`}>
-                  <img
-                    className="imgProd"
-                    src={produto.src}
-                    alt={produto.alt}
-                  />
-                  <h1>descricao</h1>
-                  <h1>
-                    <br /> EM PROMOCAO <br />
-                    <span>NO PIX</span>
-                  </h1>
-                  <Button />
-                </a>
-              </div>
-            );
-          })}
+          {produtos.map((produto) => (
+            <div key={produto.id} className="contProduto">
+              <a href={`/produtos/${produto.id}`}>
+                <img
+                  className="imgProd"
+                  src={produto.thumbnail}
+                  alt={produto.name}
+                />
+                <h1>{produto.name}</h1>
+                <h1>
+                  <br /> EM PROMOCAO <br />
+                  <span>NO PIX</span>
+                </h1>
+                <Button />
+              </a>
+            </div>
+          ))}
         </section>
         <div className="progaContainer">
           <Propaganda
