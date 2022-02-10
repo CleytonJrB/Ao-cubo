@@ -1,0 +1,154 @@
+#Container {
+  width: 100%;
+  height: 75vh;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .comprarCont {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    max-width: 1200px;
+    height: 700px;
+    background: #ffffff;
+
+    .contLeft {
+      display: flex;
+      flex: 1;
+      background: #fff;
+      height: 90%;
+    }
+    .contRight {
+      display: flex;
+      flex: 1;
+      background: #fff;
+      height: 80%;
+      margin-top: 7%;
+    }
+  }
+}
+#Left {
+  .Header {
+    .NomeProd {
+      margin: 25px 0px 0px 50px;
+      p {
+        color: #000;
+        font-size: 24px;
+        font-weight: bold;
+      }
+    }
+    .Complemento {
+      display: flex;
+      margin: 25px 0px 0px 90px;
+      span {
+        border-right: 1px solid #d1d1d1;
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+        margin-right: 0px;
+      }
+      .EstrelasCont {
+        border-right: 1px solid #d1d1d1;
+      }
+    }
+  }
+}
+
+#Rigth {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 10px;
+  align-content: center;
+  flex-direction: column;
+  .contPropa {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 550px;
+    height: 150px;
+    background: #05a8d7;
+    border-radius: 4px;
+  }
+  .mHeader {
+    p {
+      display: flex;
+      align-content: center;
+      flex-direction: row;
+      flex: 1;
+      font-weight: 300;
+      color: #42464d;
+      font-size: 14px;
+      margin: 31px 0px 31px 0px;
+      h2 {
+        display: flex;
+        align-content: center;
+        margin: 0px 8px 0px 8px;
+        font-size: 14px;
+      }
+      span {
+        font-size: 14px;
+        color: #07ba19;
+        margin: 0px 0px 0px 8px;
+      }
+    }
+  }
+  .mMain {
+    display: flex;
+    flex-direction: row;
+    margin: 35px 0px 35px 0px;
+
+    .left {
+      flex: 6;
+      .price {
+        color: #05a8d7;
+        font-size: 45px;
+        font-weight: bold;
+        line-height: 1;
+      }
+      .priceT {
+        font-size: 14px;
+        font-weight: 300 !important;
+        color: #42464d;
+        span {
+          font-weight: 600 !important;
+          font-size: 14px;
+          color: #42464d;
+        }
+      }
+    }
+    .right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 8;
+      button {
+        width: 250px;
+        height: 50px;
+        background: #05a8d7;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+  }
+  .mFooter {
+    p {
+      color: #42464d;
+      font-size: 14px;
+
+      span {
+        font-size: 14px;
+        color: #42464d;
+        font-weight: 600 !important;
+      }
+    }
+    a {
+      font-size: 14px;
+      color: #929292;
+      text-decoration: underline;
+    }
+  }
+}

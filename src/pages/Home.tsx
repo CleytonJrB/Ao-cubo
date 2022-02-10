@@ -16,8 +16,7 @@ type ProdutoProps = {
 export function Home() {
   const [produtos, setProdutos] = useState<ProdutoProps[]>([]);
   useEffect(() => {
-    axios.get("http://localhost:3333/produtos").then((res) => {
-      console.log(res.data);
+    axios.get("http://localhost:3333/produto").then((res) => {
       setProdutos(res.data);
     });
   }, []);
@@ -36,7 +35,7 @@ export function Home() {
         <section className="listagemProduto">
           {produtos.map((produto) => (
             <div key={produto.id} className="contProduto">
-              <a href={`/produtos/${produto.id}`}>
+              <a href={`/produtos`}>
                 <img
                   className="imgProd"
                   src={produto.thumbnail}
