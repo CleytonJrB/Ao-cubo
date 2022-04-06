@@ -11,7 +11,7 @@ export default function MainRouter() {
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<LoginForm />} />
       <Route path="/cadastro" element={<LoginForm />} />
-      <Route path="/produtos" element={<Comprar />} />
+      <Route path="/produto" element={<Comprar />} />
 
       <Route path="*" element={<NotFound />} />
     </Routes>
